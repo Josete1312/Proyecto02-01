@@ -1,0 +1,311 @@
+@media (max-width:400px) 
+{
+    body
+    {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6pt;
+    color: red;
+    background-image: url(../IMG/images.jpeg);
+    }
+}
+@media (400px < width  <=800px ) 
+{
+    body
+    {
+        background-color: rgb(212, 173, 173);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 8pt;
+        color: blue;
+        background-image: url(../IMG/17700107-fondo-seamless-tileable-para-fondos-de-pantalla-alta-resolución-colores-claros.jpg);
+    }
+    
+}
+@media (800px < width <= 1200px) 
+{
+    body
+    {
+        background-color: blue;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        color: green;
+        font-size: 10pt;
+        background-image: url(../IMG/descarga.jpeg);
+    }
+}
+
+@media (1200px < width <= 1600px) 
+{
+    body
+    {
+        background-color: rgb(107, 78, 212);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12pt;
+        color: yellow;
+        background-image: url(../IMG/doodle-cheetah-seamless-pattern-hand-drawn-cute-leopard-endless-wallpaper-wild-animals-background-vector.jpg)
+    }
+}
+
+@media (width > 1600px) 
+{
+    body
+    {
+        background-color: green;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14pt;
+        color: orange;
+        background-image: url(../IMG/35975670-modelo-geométrico-seamless-vector-fondo-oscuro-textura-abstracta-para-fondos-de-pantalla.jpg)
+    }
+}
+
+h1
+{
+    text-align: center;
+}
+
+.imagen
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.principal{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+}
+
+.foto18{
+width: 20%;
+height: 5%;
+margin-left: 40%;
+
+}
+
+.foto1{
+  width: 10%;
+  height: 5%;
+  margin-left: 15%;
+  margin-top: 10%;
+    
+}
+
+.foto2{
+  width: 10%;
+  height: 5%;
+  margin-left: 35%;
+  float: left;
+  margin-top: -10.25%;
+    
+}
+.foto3{
+  width: 10%;
+  height: 5%;
+  margin-left: 55%;
+  float: left;
+  margin-top: -10.25%;
+    
+}
+.foto4{
+  width: 10%;
+  height: 5%;
+  margin-left: 75%;
+  float: left;
+  margin-top: -10.25%;
+    
+}
+
+.foto5{
+  width: 10%;
+  height: 5%;
+  margin-left: 15%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+.foto6{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+.foto7{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+.foto8{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto9{
+  width: 10%;
+  height: 5%;
+  margin-left: 15%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+.foto10{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto11{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto12{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto13{
+  width: 10%;
+  height: 5%;
+  margin-left: 15%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto14{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto15{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto16{
+  width: 10%;
+  height: 5%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.foto17{
+  width: 10%;
+  height: 5%;
+  margin-left: 45%;
+  float: left;
+  margin-top: 9.5%;
+    
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin-left: 30%;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    float: left;
+  }   
+
+
+  nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: red;
+  }
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  .menu-vertical li:hover{
+    background-color: black;
+  }
+  
+  .menu-vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+  }
+  
+  #html{
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;
+  
+  }
+.footer{
+    float: left;
+}
+.redes{
+    float: left;
+    margin-left: 32.5%;
+}
