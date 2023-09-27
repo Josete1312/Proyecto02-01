@@ -256,7 +256,6 @@ margin-left: 40%;
   nav{
     max-width: 900px;
     margin: auto;
-    background-color: #333;
     font-size: 20px;
     margin-top: 50px;
   }
@@ -265,6 +264,7 @@ margin-left: 40%;
     display: flex;
     position: fixed;
     justify-content: space-around;
+    background-color: #333;
   }
   .menu-horizontal > li > a{
     display: block;
