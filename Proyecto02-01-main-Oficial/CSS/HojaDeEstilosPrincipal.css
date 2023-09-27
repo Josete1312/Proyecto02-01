@@ -287,6 +287,8 @@ margin-left: 40%;
   }
   .menu-vertical li:hover{
     background-color: black;
+    margin-left: -50px;
+    margin-right: -10px;
   }
   
   .menu-vertical li a{
