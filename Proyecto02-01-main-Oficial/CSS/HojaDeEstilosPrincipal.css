@@ -251,7 +251,7 @@ margin-left: 40%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     float: left;
   }   
-
+    
 
   nav{
     max-width: 900px;
@@ -263,6 +263,7 @@ margin-left: 40%;
   .menu-horizontal{
     list-style: none;
     display: flex;
+    position: fixed;
     justify-content: space-around;
   }
   .menu-horizontal > li > a{
