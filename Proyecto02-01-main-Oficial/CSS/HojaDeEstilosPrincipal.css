@@ -2,22 +2,40 @@
 {
     body
     {
-    background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 6pt;
     color: red;
     background-image: url(../IMG/images.jpeg);
     }
+    
 }
 @media (400px < width  <=800px ) 
 {
     body
     {
-        background-color: rgb(212, 173, 173);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 8pt;
         color: blue;
         background-image: url(../IMG/17700107-fondo-seamless-tileable-para-fondos-de-pantalla-alta-resolución-colores-claros.jpg);
+    }
+    .foto18{
+      width: 40%;
+      }
+
+    #IMGPrin
+    {
+      width:30%;
+      margin-left: 12%;
+      float: left;
+      margin-top: 9.5%;
+    }
+    
+    .foto17{
+      width: 10%;
+      height: 5%;
+      margin-left: 45%;
+      clear: left;
+      margin-top: 9.5%;
     }
     
 }
@@ -25,36 +43,97 @@
 {
     body
     {
-        background-color: blue;
         font-family: "Comic Sans MS", "Comic Sans", cursive;
         color: green;
         font-size: 10pt;
         background-image: url(../IMG/descarga.jpeg);
     }
+    #IMGPrin
+    {
+      width: 20%;
+      margin-left: 12%;
+      float: left;
+      margin-top: 9.5%;
+    }
+    
+    .foto17{
+      width: 10%;
+      height: 5%;
+      margin-left: 45%;
+      clear: left;
+      margin-top: 9.5%;
+    }
+    
 }
 
 @media (1200px < width <= 1600px) 
 {
     body
     {
-        background-color: rgb(107, 78, 212);
         font-family: 'Times New Roman', Times, serif;
         font-size: 12pt;
         color: yellow;
         background-image: url(../IMG/doodle-cheetah-seamless-pattern-hand-drawn-cute-leopard-endless-wallpaper-wild-animals-background-vector.jpg)
     }
+    #IMGPrin
+    {
+      width: 10%;
+      margin-left: 12%;
+      float: left;
+      margin-top: 9.5%;
+    }
+    .foto5{
+      clear: left;
+    }
+    .foto9{
+      clear: left;
+    }
+    .foto13{
+      clear: left;
+    }
+    .foto17{
+      width: 10%;
+      height: 5%;
+      margin-left: 45%;
+      clear: left;
+      margin-top: 9.5%;
+    }
+    
 }
 
 @media (width > 1600px) 
 {
     body
     {
-        background-color: green;
         font-family: 'Courier New', Courier, monospace;
         font-size: 14pt;
         color: orange;
         background-image: url(../IMG/35975670-modelo-geométrico-seamless-vector-fondo-oscuro-textura-abstracta-para-fondos-de-pantalla.jpg)
     }
+    #IMGPrin
+    {
+      width: 10%;
+      margin-left: 12%;
+      float: left;
+      margin-top: 9.5%;
+    }
+    .foto5{
+      clear: left;
+    }
+    .foto9{
+      clear: left;
+    }
+    .foto13{
+      clear: left;
+    }
+    .foto17{
+      width: 10%;
+      height: 5%;
+      margin-left: 45%;
+      clear: left;
+      margin-top: 9.5%;
+    }
+    
 }
 
 h1
@@ -84,7 +163,7 @@ height: 5%;
 margin-left: 40%;
 margin-top: 10%;
 }
-
+/*
 .foto1{
   width: 10%;
   height: 5%;
@@ -229,7 +308,7 @@ margin-top: 10%;
   float: left;
   margin-top: 9.5%;
     
-}
+}*/
 
 .buttons {
     min-width: 700px;
