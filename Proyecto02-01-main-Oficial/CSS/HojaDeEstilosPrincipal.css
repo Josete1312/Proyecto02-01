@@ -330,18 +330,20 @@ margin-top: 10%;
     float: left;
   }   
     
-  nav{
-    max-width: 900px;
-    margin: auto;
-    font-size: 20px;
-    margin-top: 50px;
-  }
+   nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+  } 
   .menu-horizontal{
     list-style: none;
     display: flex;
     position: fixed;
     justify-content: space-around;
     background-color: #333;
+    padding: 0;
   }
   .menu-horizontal > li > a{
     display: block;
@@ -356,23 +358,27 @@ margin-top: 10%;
     position: absolute;
     display: none;
     list-style: none;
-    width: 200px;
+    width: 30%;
     background-color: rgba(0, 0, 0, .5);
+  }
+  .menu-vertical li {
+    margin: 10px;
   }
   .menu-horizontal li:hover .menu-vertical{
     display: block;
+    padding: 0;
+    text-align: center;
   }
   .menu-vertical li:hover{
     background-color: black;
-    margin-left: -50px;
-    margin-right: -10px;
+    text-align: center;
+    padding: 0;
   }
   
   .menu-vertical li a{
     display: block;
     color: white;
     text-decoration: none;
-    padding: 15px 15px 15px 20px;
   }
   
   #html{
